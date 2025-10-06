@@ -1,0 +1,6 @@
+@aspNet_kt3_HostAddress = http://localhost:5023
+
+GET {{aspNet_kt3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
