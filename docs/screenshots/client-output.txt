@@ -1,0 +1,13 @@
+﻿=== KT3 Booking Demo Client ===
+Endpoint: http://localhost:8080/BookingService.svc
+API key: student-demo-key
+
+1) AddResource -> Id=3, Name=Training Room C
+2) UpdateResourceAvailability -> True
+3) SearchAvailableResources -> Found=3
+4) ReserveResource -> BookingId=1, Price=80
+5) GetRevenueReport(before cancel) -> TotalRevenue=80, TotalBookings=1
+6) CancelBooking -> True
+7) GetRevenueReport(after cancel) -> TotalRevenue=0, TotalBookings=0
+
+Demo completed successfully.

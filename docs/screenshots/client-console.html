@@ -1,0 +1,22 @@
+﻿<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><title>Client Console Output</title>
+<style>
+body { margin:0; background:#0d1117; color:#e6edf3; font-family: Consolas, 'Cascadia Mono', monospace; }
+.wrapper { padding:24px; }
+h1 { font-size:24px; margin:0 0 12px 0; color:#58a6ff; }
+pre { background:#161b22; border:1px solid #30363d; border-radius:10px; padding:16px; white-space:pre-wrap; line-height:1.4; font-size:16px; }
+</style></head>
+<body><div class="wrapper"><h1>KT3 Booking Demo Client</h1><pre>=== KT3 Booking Demo Client ===
+Endpoint: http://localhost:8080/BookingService.svc
+API key: student-demo-key
+
+1) AddResource -&gt; Id=3, Name=Training Room C
+2) UpdateResourceAvailability -&gt; True
+3) SearchAvailableResources -&gt; Found=3
+4) ReserveResource -&gt; BookingId=1, Price=80
+5) GetRevenueReport(before cancel) -&gt; TotalRevenue=80, TotalBookings=1
+6) CancelBooking -&gt; True
+7) GetRevenueReport(after cancel) -&gt; TotalRevenue=0, TotalBookings=0
+
+Demo completed successfully.
+</pre></div></body></html>
