@@ -4,7 +4,7 @@
 
 ## Формат сдачи
 
-- Прототип сервиса - работающий код (ссылка на GitHub): `добавь ссылку после push`, пример `https://github.com/<username>/KT3.BookingPrototype`
+- Прототип сервиса - работающий код (ссылка на GitHub): `https://github.com/maximb2222/aspNet_kt3/tree/kt3-booking-prototype`
 - Заполненный README: этот файл.
 - Скриншоты работающих сервисов (браузер, консоль клиента): добавлены ниже и в `docs/screenshots`.
 
@@ -76,3 +76,4 @@ dotnet run --project .\src\KT3.BookingPrototype.Client
 - Header name: `X-Api-Key`
 - Header namespace: `urn:kt3:auth`
 - Demo key: `student-demo-key`
+
